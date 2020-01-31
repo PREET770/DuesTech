@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61145" started-at="2020-01-31T15:45:46 IST" finished-at="2020-01-31T15:46:47 IST">
+    <groups>
+      <group name="TripAdvisor">
+        <method signature="SecondScript.iphonePriceInAmazonAndFlipkartTest()[pri:0, instance:com.DuesTech.TestScript.SecondScript@34cd072c]" name="iphonePriceInAmazonAndFlipkartTest" class="com.DuesTech.TestScript.SecondScript"/>
+      </group> <!-- TripAdvisor -->
+      <group name="Amazon">
+        <method signature="FirstTestScript.iphonePriceInAmazonAndFlipkartTest()[pri:0, instance:com.DuesTech.TestScript.FirstTestScript@184f6be2]" name="iphonePriceInAmazonAndFlipkartTest" class="com.DuesTech.TestScript.FirstTestScript"/>
+      </group> <!-- Amazon -->
+    </groups>
+    <test name="Test" duration-ms="43188" started-at="2020-01-31T15:45:46 IST" finished-at="2020-01-31T15:46:29 IST">
+      <class name="com.DuesTech.TestScript.FirstTestScript">
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:com.DuesTech.TestScript.FirstTestScript@184f6be2]" name="launchApplication" is-config="true" duration-ms="10870" started-at="2020-01-31T15:45:46 IST" finished-at="2020-01-31T15:45:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.amazon.in.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="iphonePriceInAmazonAndFlipkartTest()[pri:0, instance:com.DuesTech.TestScript.FirstTestScript@184f6be2]" name="iphonePriceInAmazonAndFlipkartTest" duration-ms="31274" started-at="2020-01-31T15:45:57 IST" finished-at="2020-01-31T15:46:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphonePriceInAmazonAndFlipkartTest -->
+        <test-method status="PASS" signature="closingApplication()[pri:0, instance:com.DuesTech.TestScript.FirstTestScript@184f6be2]" name="closingApplication" is-config="true" duration-ms="1010" started-at="2020-01-31T15:46:28 IST" finished-at="2020-01-31T15:46:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingApplication -->
+      </class> <!-- com.DuesTech.TestScript.FirstTestScript -->
+    </test> <!-- Test -->
+    <test name="Test TripAdviser" duration-ms="17885" started-at="2020-01-31T15:46:29 IST" finished-at="2020-01-31T15:46:47 IST">
+      <class name="com.DuesTech.TestScript.SecondScript">
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:com.DuesTech.TestScript.SecondScript@34cd072c]" name="launchApplication" is-config="true" duration-ms="15447" started-at="2020-01-31T15:46:29 IST" finished-at="2020-01-31T15:46:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.tripadvisor.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="FAIL" signature="iphonePriceInAmazonAndFlipkartTest()[pri:0, instance:com.DuesTech.TestScript.SecondScript@34cd072c]" name="iphonePriceInAmazonAndFlipkartTest" duration-ms="1325" started-at="2020-01-31T15:46:45 IST" finished-at="2020-01-31T15:46:46 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYFF-4F-32', ip: '10.10.14.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\TYSS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ee1be0ee334658ea654d18036c2e5c91
+*** Element info: {Using=xpath, value=//div[@class='input_box activeInput']//input[@id='mainSearch']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYFF-4F-32', ip: '10.10.14.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\TYSS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ee1be0ee334658ea654d18036c2e5c91
+*** Element info: {Using=xpath, value=//div[@class='input_box activeInput']//input[@id='mainSearch']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at com.DuesTech.Pages.TripAdvisor.tripAdvisor1(TripAdvisor.java:61)
+at com.DuesTech.TestScript.SecondScript.iphonePriceInAmazonAndFlipkartTest(SecondScript.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphonePriceInAmazonAndFlipkartTest -->
+        <test-method status="PASS" signature="closingApplication()[pri:0, instance:com.DuesTech.TestScript.SecondScript@34cd072c]" name="closingApplication" is-config="true" duration-ms="1107" started-at="2020-01-31T15:46:46 IST" finished-at="2020-01-31T15:46:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingApplication -->
+      </class> <!-- com.DuesTech.TestScript.SecondScript -->
+    </test> <!-- Test TripAdviser -->
+  </suite> <!-- Suite -->
+</testng-results>
